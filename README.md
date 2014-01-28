@@ -1,4 +1,3 @@
-Stringified 10k payloads to stdout in 1635
 =======
 node-streaming-serializer
 =========================
@@ -11,3 +10,4 @@ Current stats with stdout being piped to /dev/null and a 10k internal write buff
 $ node serializer_benchmark.js > /dev/null
 Serialized 10k payloads to stdout in 6740
 Recursively serialized 10k payloads to stdout in 6785
+Stringified 10k payloads to stdout in 1635
